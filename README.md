@@ -46,6 +46,4 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 		color: green;
 	}
 }
-```css
-
-  * Watch out - @media handheld DOES NOT apply to smartphones and tablets!
+```
