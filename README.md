@@ -24,6 +24,7 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
  * Even better, we can use the class and ID attributes to specify (only) a single element (by ID) or multiple elements (by class)  
  * In the CSS, the class selector is the class name preceded by a full stop - .headers  
  * And the ID selector is the ID name preceded by a hashtag - #MainHeader  
+ * TOP TIP - you can write links directly to a ID element - domain.com/page**#IDname** takes you directly to the IDname element on domain.com/page
 
  * We can also specify different rules for different screen sizes, device types, page orientations etc. using CSS Media Queries  
   * So we can make images bigger on larger screens, or remove menus/headers for print-friendly pages, and so on  
@@ -53,3 +54,18 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
  * When it comes down to it, only a human can really determine the accessibility of a web page, but [WAVE](http://wave.webaim.org/) or other tools can help identify errors automatically
   * For example, you might have some text on a background that comes up with poor contrast and is therefore hard to read - like so  
 ![Poor contrast example image](http://www.spaboomblog.com/wp-content/uploads/2007/08/low-contrast03.gif)
+
+#Chrome Dev Tools
+Interactive tool to live edit and test and HTML/CSS on existing websites
+To open dev tools click on **View > Developer Tools**
+
+Some cool things you can do:
+* View the mobile version of a site - click the little mobile phone icon in the top left of the developer tools window
+* Inspect element- view the HTML/CSS associated with elements on the web page. Click on the little magnifying glass in the dev tools window and move it across the webpage, hovering over the elements you want to investigate. If you click, it will take you to the relevant section in the code
+* Live edit HTML and CSS - change HTML/CSS properties in the dev tools window and see the website change in response! To increment numerical CSS values, use the up and down arrows. A strikethrough on the CSS value shows that the property value has been overridden- e.g in a list the individual ``` <li> ``` list element has inherited a color value from its parent ``` <ul> ``` class, but this may be replaced if a different colour is specified for ``` <li> ``` elements. 
+* Test different layouts-move around sections of the HTML by dragging and dropping
+* View the box model- scroll down on the right hand side of the dev tools window and you'll see a set of rectangles - this shows the dimensions of the content, padding and the border. 
+
+
+
+Lots more info [here](https://developer.chrome.com/devtools/docs/dom-and-styles) on the Dev Tools website.
