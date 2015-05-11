@@ -47,3 +47,10 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 	}
 }
 ```
+
+## Web Accessibility  
+
+* We want our content to be easily accessible - this could be to aid people with visual impairments, for example, but is also of general importance
+ * When it comes down to it, only a human can really determine the accessibility of a web page, but [WAVE](http://wave.webaim.org/) or other tools can help identify errors automatically
+  * For example, you might have some text on a background that comes up with poor contrast and is therefore hard to read - like so  
+![Poor contrast example image](http://www.spaboomblog.com/wp-content/uploads/2007/08/low-contrast03.gif)
