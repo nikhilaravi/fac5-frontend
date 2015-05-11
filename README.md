@@ -32,12 +32,15 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 
 ##CSS intro  
 
+###IDs and Classes
+
 * As we probably all know by now, we use CSS to style our HTML  
  * Instead of writing out the colo(u)r/font/font-size for each HTML element inside the main HTML doc, we can have a separate CSS doc where we define how each HTML element should look  
  * Even better, we can use the class and ID attributes to specify (only) a single element (by ID) or multiple elements (by class)  
  * In the CSS, the class selector is the class name preceded by a full stop - .headers  
  * And the ID selector is the ID name preceded by a hashtag - #MainHeader  
- * TOP TIP - you can write links directly to a ID element - domain.com/page**#IDname** takes you directly to the IDname element on domain.com/page
+
+###Media Queries
 
  * We can also specify different rules for different screen sizes, device types, page orientations etc. using CSS Media Queries  
   * So we can make images bigger on larger screens, or remove menus/headers for print-friendly pages, and so on  
@@ -60,6 +63,7 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 	}
 }
 ```
+  * Useful links [here](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en) and [here](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 
 ## Web Accessibility  
 
