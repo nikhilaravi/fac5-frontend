@@ -31,6 +31,12 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 
 ##CSS intro  
 
+###Vanilla 
+
+* We are encouraged to code without preprocessors,frameworks and templates.
+* Don't rely on SASS & LESS.
+* However, it is useful to be inspired by pre-existing code but we aim to have written all our code ourself to fully understand what's going on.
+
 ###IDs and Classes
 
 * As we probably all know by now, we use CSS to style our HTML  
