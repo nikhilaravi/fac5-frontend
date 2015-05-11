@@ -24,7 +24,6 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
  * Even better, we can use the class and ID attributes to specify (only) a single element (by ID) or multiple elements (by class)  
  * In the CSS, the class selector is the class name preceded by a full stop - .headers  
  * And the ID selector is the ID name preceded by a hashtag - #MainHeader  
- * TOP TIP - you can write links directly to a ID element - domain.com/page**#IDname** takes you directly to the IDname element on domain.com/page
 
  * We can also specify different rules for different screen sizes, device types, page orientations etc. using CSS Media Queries  
   * So we can make images bigger on larger screens, or remove menus/headers for print-friendly pages, and so on  
