@@ -25,7 +25,10 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 ##HTML Validation 
 * Checks the syntax of Web documnets written in formats such as HTML or XHTML
 * Why? If you have errors in your code, different browers will interpret them in different ways
-* Run your HTML documents through a Markup Validator such as the one run by W3C [here](https://validator.w3.org/)  
+* Run your HTML documents through a Markup Validator:
+* 	[W3C](https://validator.w3.org/),
+* 	[Wave](http://wave.webaim.org/)
+* 	[Tenon](http://tenon.io/)
 
 ##CSS intro  
 
