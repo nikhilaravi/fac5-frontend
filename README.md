@@ -6,6 +6,7 @@ Week 1 front end seminar
 * [Mobile First Design](#mobile-first-design)
 * [HTML Validation](#html-validation)
 * [CSS Intro](#css-intro)
+* [CSS Positioning](#css-positioning)
 * [Web Accessibility](#web-accessibility)
 * [Chrome Dev Tools](#chrome-dev-tools)
 
