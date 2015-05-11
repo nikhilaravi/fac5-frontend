@@ -6,6 +6,7 @@ Week 1 front end seminar
 * [Mobile First Design](#mobile-first-design)
 * [HTML Validation](#html-validation)
 * [CSS Intro](#css-intro)
+* [CSS Positioning](#css-positioning)
 * [Web Accessibility](#web-accessibility)
 * [Chrome Dev Tools](#chrome-dev-tools)
 
@@ -26,18 +27,25 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 * Checks the syntax of Web documnets written in formats such as HTML or XHTML
 * Why? If you have errors in your code, different browers will interpret them in different ways
 * Run your HTML documents through a Markup Validator:
-	* [W3C](https://validator.w3.org/)
-	* [Wave](http://wave.webaim.org/)
-	* [Tenon](http://tenon.io/)
+	* [W3C](https://validator.w3.org/)  
 
 ##CSS intro  
+
+###Vanilla 
+
+* We are encouraged to code without preprocessors,frameworks and templates.
+* Don't rely on SASS & LESS.
+* However, it is useful to be inspired by pre-existing code but we aim to have written all our code ourself to fully understand what's going on.
+
+###IDs and Classes
 
 * As we probably all know by now, we use CSS to style our HTML  
  * Instead of writing out the colo(u)r/font/font-size for each HTML element inside the main HTML doc, we can have a separate CSS doc where we define how each HTML element should look  
  * Even better, we can use the class and ID attributes to specify (only) a single element (by ID) or multiple elements (by class)  
  * In the CSS, the class selector is the class name preceded by a full stop - .headers  
  * And the ID selector is the ID name preceded by a hashtag - #MainHeader  
- * TOP TIP - you can write links directly to a ID element - domain.com/page**#IDname** takes you directly to the IDname element on domain.com/page
+
+###Media Queries
 
  * We can also specify different rules for different screen sizes, device types, page orientations etc. using CSS Media Queries  
   * So we can make images bigger on larger screens, or remove menus/headers for print-friendly pages, and so on  
@@ -60,6 +68,23 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 	}
 }
 ```
+  * Useful links [here](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en) and [here](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+
+##CSS Positioning
+
+There are four types of positioning you can apply to your elements.
+* Static
+ * The default value. Elements with static position will be positioned in their natural place in the page. Usually the top left of the page.
+* Relative
+ * Relative elements behave the same as static elements, but can be manually positioned using the 'top', 'right', 'left' and 'bottom' properties.
+* Fixed
+ * Fixed elements are positioned relative to the viewport ('top', 'left' etc...), but will always stay in the same place on the screen, even as the page is scrolled.
+* Absolute
+ * Absolutely positioned elements are dependent on their parent. If they are inside a positioned element (anything except static), they are positioned relative to that container, else they are positioned relative to the viewport.
+
+###Float
+* Float can be used to wrap text around images. Images can be floated left or right.
+* Other elements in the same container need to be cleared so they don't overlap the floated elements.
 
 ## Web Accessibility  
 
