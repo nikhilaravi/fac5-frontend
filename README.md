@@ -1,6 +1,16 @@
 # fac5-frontend
 Week 1 front end seminar
 
+##Contents
+
+* [Mobile First Design](#mobile-first-design)
+* [HTML Validation](#html-validation)
+* [CSS Intro](#css-intro)
+* [Web Accessibility](#web-accessibility)
+* [Chrome Dev Tools](#chrome-dev-tools)
+
+
+
 
 ##Mobile First Design  
 * We are designing our blog "Mobile first" - i.e. starting with mobile in mind and not the desktop browser  
@@ -55,7 +65,7 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
   * For example, you might have some text on a background that comes up with poor contrast and is therefore hard to read - like so  
 ![Poor contrast example image](http://www.spaboomblog.com/wp-content/uploads/2007/08/low-contrast03.gif)
 
-#Chrome Dev Tools
+##Chrome Dev Tools
 Interactive tool to live edit and test and HTML/CSS on existing websites
 To open dev tools click on **View > Developer Tools**
 
