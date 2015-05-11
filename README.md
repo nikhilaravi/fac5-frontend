@@ -47,3 +47,15 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 	}
 }
 ```
+
+##CSS Positioning
+
+There are four types of positioning you can apply to your elements.
+* Static
+ * The default value. Elements with static position will be positioned in their natural place in the page. Usually the top left of the page.
+* Relative
+ * Relative elements behave the same as static elements, but can be manually positioned using the 'top', 'right', 'left' and 'bottom' properties.
+* Fixed
+ * Fixed elements are positioned relative to the viewport ('top', 'left' etc...), but will alwys stay in the same place on the screen, even as the page is scrolled.
+* Absolute
+ * Absolutely positioned elements are dependent on their parent. If they are inside a positioned element (anything except static), they are positioned relative to that container, else they are positioned relative to the viewport.
