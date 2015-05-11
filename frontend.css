@@ -1,0 +1,50 @@
+.main {
+	padding: 20px;
+	margin: 50px;
+	border: 1px solid black;
+}
+
+.staticIceCream {
+	position: static;
+	left: 100px;
+}
+
+.relativeIceCream {
+	position: relative;
+	left: 100px;
+}
+
+.fixedIceCream {
+	height: 200px;
+	width: 150px;
+	position: fixed;
+	left: 800px;
+	top: 60px;
+}
+
+#outer {
+	border: 1px solid #f00;
+	height: 200px;
+	position: relative;
+}
+ 
+#inner {
+	width: 6em;
+	height: 200px;
+	background-color: #999;
+	position: absolute;
+	left: 50px;
+}
+
+#outer2 {
+	border: 1px solid #f00;
+	height: 200px;
+}
+ 
+#inner2 {
+	width: 6em;
+	height: 200px;
+	background-color: #999;
+	position: absolute;
+	left: 50px;
+}
