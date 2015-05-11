@@ -2,6 +2,11 @@
 	padding: 20px;
 	margin: 50px;
 	border: 1px solid black;
+	overflow: auto;
+}
+
+div {
+	margin-bottom: 40px;
 }
 
 .staticIceCream {
@@ -15,6 +20,7 @@
 }
 
 .fixedIceCream {
+	/*display: none;*/
 	height: 200px;
 	width: 150px;
 	position: fixed;
@@ -22,13 +28,13 @@
 	top: 60px;
 }
 
-#outer {
+.outer {
 	border: 1px solid #f00;
 	height: 200px;
 	position: relative;
 }
  
-#inner {
+.inner {
 	width: 6em;
 	height: 200px;
 	background-color: #999;
@@ -36,15 +42,22 @@
 	left: 50px;
 }
 
-#outer2 {
+.outer2 {
 	border: 1px solid #f00;
 	height: 200px;
 }
  
-#inner2 {
-	width: 6em;
-	height: 200px;
-	background-color: #999;
-	position: absolute;
-	left: 50px;
+.float {
+	float: right;
+}
+
+.column {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+.clear {
+	border: 1px solid black;
+	clear: left;
 }
