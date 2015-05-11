@@ -25,3 +25,27 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
  * In the CSS, the class selector is the class name preceded by a full stop - .headers  
  * And the ID selector is the ID name preceded by a hashtag - #MainHeader  
  * TOP TIP - you can write links directly to a ID element - domain.com/page**#IDname** takes you directly to the IDname element on domain.com/page
+
+ * We can also specify different rules for different screen sizes, device types, page orientations etc. using CSS Media Queries  
+  * So we can make images bigger on larger screens, or remove menus/headers for print-friendly pages, and so on  
+ 
+ 
+```css
+//Normal CSS 
+#main-header {
+	font-family: arial;
+	color: purple;
+}
+
+
+//Change font and color when orientation is portrait (not that you would want to...)
+
+@media (orientation: portrait) {
+	#main-header {
+		font-family: Times;
+		color: green;
+	}
+}
+```css
+
+  * Watch out - @media handheld DOES NOT apply to smartphones and tablets!
