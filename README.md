@@ -18,7 +18,7 @@ Week 1 front end seminar
 * The advantages are... 
  * Desktop sites often have more functionality / fancy things than the equivalent mobile site; starting with the desktop means we have to remove things for the mobile, whereas starting with the mobile site we can add things for the desktop, which is simpler
  * Faster loading time on a mobile - otherwise the desktop version loads and components are removed which takes longer
- * Google page ranking higher for mobile optimized sites - easier to start with designing for mobile
+ * Google page ranking higher for mobile optimized sites - greater exposure with designing for mobile
  * Changing user habits - 25% of U.S. population only use mobiles for internet
  
 More info [here](http://designshack.net/articles/css/mobilefirst/)
@@ -68,7 +68,9 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 	}
 }
 ```
-  * Useful links [here](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en) and [here](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+* Test your device to see which queries satisfied with this [link](http://cssmediaqueries.com/overview.html).
+  * Note handheld does not refer to iphones etc. but very old dated phones!
+* More useful links [here](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en) and [here](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 
 ##CSS Positioning
 
